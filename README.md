@@ -3,19 +3,19 @@
 Analysis of Foodmart retail dataset, which covers transaction across 13 stores operating in USA along with other fact tables such as customer, store, products. Throughout the progress, Python was used to prepare and clean the data, while SQL was used to extract insights covering financial performance, customer behavior, membership tiers, and store formats. .
 
 ## Project Structure
-├── cust_metric.sql               # Customer-level metrics: retention, churn, active vs inactive
-├── fin_metric.sql                # Financial metrics: profit margin, average order value, revenue per store
-├── gen_metric.sql                # General metrics: overall revenue, cost, profit, and operational overview
-├── geo_metric.sql                # Geography-based metrics: store and country operational rates
-├── member_tier_deep_dive.sql     # Deep dive into membership tier performance and behavior
-├── member_tier_segment.sql       # Membership tier segmentation and breakdown
-├── product_deep_dive.sql         # Deep dive into product-level volume, margin, and cost
-├── product_metrics.sql           # General product metrics: sell-through, markup, product mix
-├── store_type_deep_dive.sql      # Deep dive into store format performance over time
-├── store_type_segment.sql        # Store type segmentation by member card and other dimensions
-├── time_metrics.sql              # Time-based metrics: daily, weekly, and monthly performance
-├── time_bound.sql                # Time-bound analysis: weekday vs weekend, seasonality
-└── vol_metrics.sql               # Volume metrics: basket size, units per customer, transaction frequency
+- cust_metric.sql               # Customer-level metrics: retention, churn, active vs inactive
+- fin_metric.sql                # Financial metrics: profit margin, average order value, revenue per store
+- gen_metric.sql                # General metrics: overall revenue, cost, profit, and operational overview
+- geo_metric.sql                # Geography-based metrics: store and country operational rates
+- member_tier_deep_dive.sql     # Deep dive into membership tier performance and behavior
+- member_tier_segment.sql       # Membership tier segmentation and breakdown
+- product_deep_dive.sql         # Deep dive into product-level volume, margin, and cost
+- product_metrics.sql           # General product metrics: sell-through, markup, product mix
+- store_type_deep_dive.sql      # Deep dive into store format performance over time
+- store_type_segment.sql        # Store type segmentation by member card and other dimensions
+- time_metrics.sql              # Time-based metrics: daily, weekly, and monthly performance
+- time_bound.sql                # Time-bound analysis: weekday vs weekend, seasonality
+- vol_metrics.sql               # Volume metrics: basket size, units per customer, transaction frequency
 
 
 ## Key Findings
@@ -54,8 +54,7 @@ Analysis of Foodmart retail dataset, which covers transaction across 13 stores o
 - 323 out of 365 active days: 42 days with zero transactions across all 13 stores 
 - Geographic inconsistency — fact table includes Canada and Mexico but all transactions are USA only
 
-
-📌 Notes
+#### Notes
 - All data is from 1997 
 - Revenue and cost figures are in USD
 - This analysis covers USA stores only
