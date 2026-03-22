@@ -1,6 +1,6 @@
 # foodmart-retail-analysis
 ## Overview
-Analysis of Foodmart retail dataset, which covers transaction across 13 stores operating in USA along with other fact tables such as customer, store, products. Throughout the progress, Python was used to prepare and clean the data, while SQL was used to extract insights covering financial performance, customer behavior, membership tiers, and store formats. .
+Analysis of Foodmart retail dataset, which covers transaction across 13 stores operating in USA along with other fact tables such as customer, store, products. Throughout the project, Python was used to standardize and ensure consistency during data preparation, while SQL was used to extract insights covering financial performance, customer behavior, membership tiers, and store formats which was then visualized with PowerBI. 
 
 ## Project Structure
 - gen_metric.sql
